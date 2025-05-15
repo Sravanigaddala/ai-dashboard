@@ -8,7 +8,7 @@ const CreateAvatarModal = () => {
   const handleOpenModal = () => setIsOpen(true);
   const handleCloseModal = () => setIsOpen(false);
   const handleSave = () => {
-    // Save the new avatar logic here (no backend for now)
+   
     console.log("New Avatar:", avatarName, avatarImage);
     handleCloseModal();
   };

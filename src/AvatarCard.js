@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css"; // Only if styles are in App.css
+import "./App.css"; 
 
 const AvatarCard = ({ avatar, onEdit }) => {
   return (
